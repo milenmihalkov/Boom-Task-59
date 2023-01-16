@@ -28,11 +28,11 @@ html {
   flex-flow: column;
 }
 .discounts{
-  visibility: hidden;
+  display: none;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .discounts{
-    visibility: visible;
+    display:block;
   }
 }
